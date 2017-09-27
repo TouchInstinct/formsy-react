@@ -21,7 +21,7 @@
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
+  "main": "release/formsy-react.js",
   "scripts": {
     "build": "NODE_ENV=production webpack -p --config webpack.config.js && yarn run prepublish",
     "examples": "webpack-dev-server --config examples/webpack.config.js --content-base examples",
