@@ -22,6 +22,7 @@ class Formsy extends React.Component {
     this.isChanged = this.isChanged.bind(this);
     this.isFormDisabled = this.isFormDisabled.bind(this);
     this.reset = this.reset.bind(this);
+    this.resetModel = this.resetModel.bind(this);
     this.resetInternal = this.resetInternal.bind(this);
     this.runValidation = this.runValidation.bind(this);
     this.submit = this.submit.bind(this);
